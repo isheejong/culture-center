@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-reactemartculture-dev-152802-authRole",
+            "UnauthRoleArn": "arn:aws:iam::074880891940:role/amplify-reactemartculture-dev-152802-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::074880891940:role/amplify-reactemartculture-dev-152802-authRole",
+            "Region": "ap-northeast-2",
+            "DeploymentBucketName": "amplify-reactemartculture-dev-152802-deployment",
+            "UnauthRoleName": "amplify-reactemartculture-dev-152802-unauthRole",
+            "StackName": "amplify-reactemartculture-dev-152802",
+            "StackId": "arn:aws:cloudformation:ap-northeast-2:074880891940:stack/amplify-reactemartculture-dev-152802/4a67d6a0-ec1c-11ea-a4b7-0a4576d3ff72",
+            "AmplifyAppId": "d1ws3bhg53kwn9"
+        },
+        "categories": {
+            "auth": {
+                "reactemartculture49b579ce": {}
+            }
+        }
+    }
+}

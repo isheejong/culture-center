@@ -1,0 +1,27 @@
+{
+	"auth": {
+		"reactemartculture49b579ce": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	},
+	"api": {
+		"reactemartculrture": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"defaultAuthentication": {
+						"authenticationType": "AMAZON_COGNITO_USER_POOLS",
+						"userPoolConfig": {
+							"userPoolId": "authreactemartculture49b579ce"
+						}
+					},
+					"additionalAuthenticationProviders": []
+				}
+			}
+		}
+	}
+}
